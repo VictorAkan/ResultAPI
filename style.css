@@ -1,0 +1,82 @@
+* {
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+.navbar-toggler {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+body {
+    font-family: sans-serif;
+}
+.navbar-brand {
+    color: white !important;
+    margin-left: 600px;
+}
+.user1 {
+    margin-top: 70px;
+    border-radius: 8px;
+}
+.like-btn {
+    border: none;
+    padding-left: 10px;
+}
+.comm-btn {
+    border: none;
+}
+.card {
+    background-color: rgb(241, 239, 239) !important;
+    margin-left: 410px;
+}
+.card-img-sec {
+    border-radius: 50%;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 4px solid blue;
+}
+.card-img-top {
+    border-radius: 50%;
+}
+.rt-div {
+    justify-content: space-between;
+}
+.modal-content {
+    background-color: blue !important;
+    color: white !important;
+}
+.form-control {
+    color: white !important;
+    background-color: transparent !important;
+}
+.action-btn {
+    border: 1px solid white;
+    border-radius: 8px;
+    height: 40px;
+    background-color: rgb(108, 108, 206) !important;
+    color: white !important;
+}
+.f-content {
+    background-color: white !important;
+}
+.modal-img {
+    width: 70px;
+}
+.modal-body {
+    justify-content: space-between;
+}
+.modal-n-footer {
+    padding-bottom: 20px;
+    margin-left: 200px;
+}
+
+@media (max-width:768px) {
+    .navbar-brand {
+        margin-left: 0px;
+    }
+    .card {
+        margin-left: 0px;
+    }
+}
